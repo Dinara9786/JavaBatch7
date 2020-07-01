@@ -24,7 +24,7 @@ public class CompareNumberNestedIf {
 			//a is the largest
 			largest = a;
 		} else {
-			//a is larger thanb, but c is larger than a
+			//a is larger than, but c is larger than a
 			largest = c;
 		}
 	} else { 

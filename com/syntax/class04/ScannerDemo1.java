@@ -14,8 +14,9 @@ public class ScannerDemo1 {
 	System.out.println ("Please enter your mobile number");
 	String mobileNumber;
 	mobileNumber = scan.nextLine();
-	System.out.println ("Your name is "+ name + ", your age is " + age + ", and your mobile number is " + mobileNumber);
-879879-87-987
+	System.out.println ("Your name is "+ name + ", your age is " + age + ", "
+			+ "and your mobile number is " + mobileNumber);
+
 	
 	
 	

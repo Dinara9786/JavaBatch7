@@ -10,21 +10,21 @@ public class MoreNestedIf {
 		// 		if date is not 13 --> watch a comedy
 		// if its is not Friday --> We are going to study JAVA
 		
-		boolean isFriday = true;
-		int date = 13;
-		
-		if (isFriday) {
-			System.out.println("I am going to watch a movie");
-			if (date ==13) {
-				System.out.println("I will watch a scary movie");
-			}else {
-				System.out.println("I watch a comedy");
-		
-		} else {
-				System.out.println("It is NOT Friday. I am going to study JAVA");
-			}
-		
-		}
+//		boolean isFriday = true;
+//		int date = 13;
+//		
+//		if (isFriday) {
+//			System.out.println("I am going to watch a movie");
+//			if (date ==13) {
+//				System.out.println("I will watch a scary movie");
+//			}else {
+//				System.out.println("I watch a comedy");
+//		
+//		} else {
+//				System.out.println("It is NOT Friday. I am going to study JAVA");
+//			}
+//		
+//		}
 	}
 
 }

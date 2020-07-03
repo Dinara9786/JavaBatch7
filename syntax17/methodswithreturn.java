@@ -28,12 +28,7 @@ int getlargest(int a, int b) {
 		largest = b;
 	}
 	return largest;
-
 }
-
-
-
-
 
 
 

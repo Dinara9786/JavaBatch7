@@ -9,5 +9,11 @@ public static void main(String[] args) {
 	
 	boolean prime = t.isPrime(2);
 	System.out.println(prime);
+	
+	StudentS student = new StudentS();
+	char grade=student.grade(75);
+	
+	
+	
 }
 }

@@ -22,4 +22,25 @@ public class task {
 		}
 		return prime;
 	}
+	
+//3rd task
+	char grade(int a) {
+		if(a>50 && a<=70) {
+			return 'D';
+		}else if(a>70 && a<=80) {
+			return 'C';
+		}else if(a>80 && a<=90) {
+			return 'B';
+		}else if(a>90 && a<=100) {
+			return 'A';
+		}else {
+			return 'F';
+		}
+	}
+	
+	
+	
+	
+	
+	
 }

@@ -22,9 +22,9 @@ public static void main(String[] args) {
 	
 	String message="you guys are awesome";
 	
-	String sybstring = message.substring(4); //take string starting from index 4
+	String substring = message.substring(4); //take string starting from index 4
 	
-	System.out.println(sybstring);
+	System.out.println(substring);
 	
 	String middleWord = message.substring(4, 8);
 	System.out.println(middleWord);

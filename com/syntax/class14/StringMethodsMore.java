@@ -51,7 +51,24 @@ public class StringMethodsMore {
 	boolean equality1 = string1.equalsIgnoreCase(string2);
 	System.out.println(equality1);
 	
+	System.out.println("===========real expample of .equals()=====================");
 	
+	String expected = "Password cannot be empty";
+	String actual = "Password can not be empty";
+	if (expected.equals(actual)) {
+		System.out.println("Test passed");
+	}else {
+		System.out.println("Test failed");
+	}
+	System.out.println("===========real expample of .equalsIgnoreCase()=====================");
+	
+	String expectedBrowser = "Chrome";
+	
+	if (expectedBrowser.equalsIgnoreCase("chrome")) {
+		System.out.println("Test executes on chrome browser"); 
+	} else {
+		System.out.println("Test executes NOT on chrome browser"); 
+	}
 	
 	
 	}

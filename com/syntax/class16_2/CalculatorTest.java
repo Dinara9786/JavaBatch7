@@ -19,8 +19,8 @@ public class CalculatorTest {
 		c.div(300, 64);
 		
 		c.mult(100, 200);
-		c.mult(10, 20);
-		c.mult(300, 64);
+//		c.mult(10); //CE number of values must much number of parameters
+//		c.mult(30,0, 64,8); // CE, the values must match type of parameters
 	}
 
 }

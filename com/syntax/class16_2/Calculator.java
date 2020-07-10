@@ -8,7 +8,7 @@ public class Calculator {
 	// we need to create a method
 	// name of the method (parameters)
 	
-	void add(int a, int b) {// 2 parameters of integer type
+	void add(int a, int b) {// 2 parameters of integer type, 2 integer values
 		//int a=10; 
 		//int b=20; 
 		System.out.println(a+b);

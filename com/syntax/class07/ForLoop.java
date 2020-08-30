@@ -6,7 +6,7 @@ public class ForLoop {
 		// print numbers from 1 to 5
 		
 		for (int num=1; num <=5; num++) {
-			System.out.println("num");
+			System.out.println("num " + num);
 		}
 	}
 

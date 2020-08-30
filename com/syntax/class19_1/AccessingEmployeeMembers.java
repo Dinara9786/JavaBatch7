@@ -8,7 +8,7 @@ public class AccessingEmployeeMembers {
 	public static void main(String[] args) {
 		
 		Employee emp = new Employee();
-		emp.name = "Ahmet";//accessible from any package, public
+		emp.name = "Ahmet";//accessible from any package, public variable
 		emp.lastName= "Smith";//accessible from any package, public
 //		emp.age=21; // protected, not visible, accessible within the same package
 //		emp.salary=90000;// not accessible within the same package, default
@@ -18,6 +18,9 @@ public class AccessingEmployeeMembers {
 //		emp.displayAge();
 //		emp.displaySalary();
 //		emp.displaySsn();
+		
+		emp.displayName();
+		emp.displayCompany();
 		
 	}
 

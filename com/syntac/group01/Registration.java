@@ -45,6 +45,7 @@ public class Registration {
 			System.out.println("Password should be larger than  characters");
 		}
 		}
+		
 		public void setPassword (String password) {
 		if (password.length()>6 && !password.isEmpty()&& !password.contains(userName)) {
 			this.password = password;

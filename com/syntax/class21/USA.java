@@ -28,6 +28,7 @@ public class USA {
 			System.out.println("The capital is " + capital);
 		}
 		public void displayInfo() {
+			System.out.println("I live in State " + state + " and in the city of " + capital);
 					displayState(); //this keyword calls instance method//this.displayState
 					displayCapital();//this.displayCapital (); Compiler adds this to refer to method				
 		}	

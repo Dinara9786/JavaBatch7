@@ -1,5 +1,5 @@
 
-epackage com.syntax.class21;
+package com.syntax.class21;
 
 public class AnimalTest {
 	

@@ -8,7 +8,7 @@ public class RegistrationTest {
 		r.setEmail ("gp@yahoo.com");
 		System.out.println(r.getEmail());
 		
-		r.setUserName("girls power");
+		r.setUsername("girls power");
 		System.out.println(r.userName());
 		
 		r.setPassword("Hihihihi");
